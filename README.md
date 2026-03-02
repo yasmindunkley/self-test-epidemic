@@ -68,4 +68,15 @@ If you use this code, please cite:
 Dunkley Y. Self-testing SEIR model with diagnostic uncertainty and global sensitivity analysis. GitHub repository. 2026. Available at: https://github.com/yasmindunkley/self-test-epidemic 
 A versioned DOI will be added upon formal release.
 
+_Packages required_
+library(deSolve)
+library(dplyr)
+library(mada)
+library(readr)
+library(MASS)
+library(tidyr)
+library(lhs)
+library(ppcor)
+library(purrr)
+library(tibble)
 
